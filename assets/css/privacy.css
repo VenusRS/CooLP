@@ -1,0 +1,133 @@
+.section01 {
+    background: url("../image/contact/sec01-bg.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    padding: 0 40px;
+}
+
+.section01 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.page-link {
+    font-size: 10px;
+    font-family: kozGoPro6NR;
+    margin-bottom: 80px;
+	text-align: left;
+}
+
+.page-link span {
+    margin: 0 10px;
+}
+
+.section02 {
+    padding: 10px 80px 40px;
+}
+
+.privacy_title {
+	font-size: 24px;
+	font-family: "NotoSansCJKjpB";
+	color: #00A4D6;
+	padding: 20px 10px;
+	border-bottom: 1px solid #648537;
+}
+
+.privacy_body {
+    margin-top: 60px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.privacy_item {
+    width: 100%;
+    margin-bottom: 40px;
+	font-family: "kozGoPro6NM";
+    font-size: 18px;
+}
+
+.privacy_item_title {
+    margin-bottom: 10px;
+}
+
+.sp {
+    display: none;
+}
+
+@media(max-width: 767px) {
+   .privacy_item {
+		font-size: 24px;
+	}
+	
+	.privacy_title {
+		font-size: 28px;
+	}
+	
+	.section01-title01 {
+		font-size: 60px;
+	}
+	
+    .pc {
+        display: none;
+    }
+
+    .sp {
+        display: flex;
+    }
+}
+
+@media(max-width: 600px) {
+	.section01-title01 {
+		font-size: 52px;
+	}
+}
+
+@media(max-width: 500px) {
+    .section01 {
+		padding: 0 20px;
+		height: 500px;
+	}
+	
+	.section01-title01 {
+		font-size: 54px;
+	}
+	
+	.section01-title02 {
+		font-size: 28px;
+	}
+	
+	.section02 {
+		padding: 10px 20px 80px;
+	}
+
+	.privacy_item {
+		font-size: 18px;
+	}
+	
+	.privacy_title {
+		font-size: 26px;
+	}
+}
+
+@media(max-width: 400px) {
+   .privacy_item {
+		font-size: 16px;
+	}
+	
+	.privacy_title {
+		font-size: 20px;
+	}
+	
+	.section01-title01 {
+		font-size: 38px;
+	}
+	
+	.section01-title02 {
+		font-size: 24px;
+	}
+}

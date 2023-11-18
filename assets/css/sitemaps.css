@@ -1,0 +1,119 @@
+.section01 {
+    background: url("../image/contact/sec01-bg.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    padding: 0 40px;
+}
+
+.section01 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.page-link {
+    font-size: 10px;
+    font-family: kozGoPro6NR;
+    margin-bottom: 80px;
+	text-align: left;
+}
+
+.page-link span {
+    margin: 0 10px;
+}
+
+.section02 {
+    padding: 10px 80px 40px;
+}
+
+.sitemaps_body {
+    margin-top: 100px;
+    margin-bottom: 60px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.sitemaps_item {
+    width: 100%;
+    padding: 25px 40px;
+    border-bottom: 1px solid #1A1311;
+    font-size: 22px;
+    font-family: "kozGoPro6NR";
+    color: #00A4D6;
+}
+
+.sitemaps_body .sitemaps_item:first-child {
+    font-size: 24px;
+    font-family: "kozGoPro6NR";
+    color: #00A4D6;
+    padding-left: 0;
+}
+
+.sitemaps_body a:hover {
+    background-color: #e9eff1;
+}
+
+.sp {
+    display: none;
+}
+
+@media(max-width: 767px) {	
+    .pc {
+        display: none;
+    }
+
+    .sp {
+        display: flex;
+    }
+}
+
+@media(max-width: 600px) {
+	.sitemaps_body {
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width: 500px) {
+    .section01 {
+		padding: 0 20px;
+		height: 500px;
+	}
+	
+	.section01-title01 {
+		font-size: 54px;
+	}
+	
+	.section01-title02 {
+		font-size: 28px;
+	}
+	
+	.section02 {
+		padding: 10px 20px 80px;
+	}
+
+	.sitemaps_body {
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+
+    .sitemaps_body .sitemaps_item:first-child {
+        font-size: 28px;
+    }
+
+    .sitemaps_item {
+        padding: 20px 30px;
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 370px) {
+   .sitemaps_body .sitemaps_item:first-child {
+        font-size: 25px;
+    }
+}

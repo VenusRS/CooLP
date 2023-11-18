@@ -1,0 +1,56 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0 !important;
+  overflow-x: hidden;
+  @include KozGoPr6N('bold');
+}
+#header {
+  position: relative;
+  padding: 1.85rem 4rem;
+  background-color: #E84B4B;
+  @include KozGoPr6N('bold');
+  font-size: 2.4rem;
+  color: white;
+  line-height: 1;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+#subheader {
+  background-color: #ED7A7A;
+  .logo {
+    padding: 2rem 4rem;
+    font-size: 2.4rem;
+    color: white;
+  }
+  .pageindex {
+    padding: 8rem 0;
+    .sub {
+      padding: 0 1.5rem;
+      background-color: white;
+      color: #ED7A7A;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 2.8rem;
+      width: max-content;
+      letter-spacing: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .lead {
+      color: white;
+      font-size: 4.8rem;
+    }
+  }
+}
+
+.swiper-container {
+  @include media('sp'){
+    padding: 0;
+  }
+}
+
